@@ -23,9 +23,6 @@ domain.xml
                 <permgen max-size="256m"/>
             </jvm>
             <socket-binding-group ref="standard-sockets"/>
-            <deployments>
-                <deployment name="jdg-test.war" runtime-name="jdg-test.war"/>
-            </deployments>
         </server-group>
     </server-groups>
 ~~~
