@@ -5,7 +5,7 @@ Install the JDG library module for EAP, jboss-datagrid-7.0.0-eap-modules-library
 
 # How to build
 
-  mvn clean package
+    mvn clean package
 
 It assumes the Red Hat Maven repository, https://maven.repository.redhat.com/ga/, is configured in your `~/.m2/settings.xml`.
 
@@ -72,13 +72,13 @@ $
 
 The cache automatically starts on deployment and insert one record in the cache in ``SampleContextListener.java``.
 
-  curl "http://127.0.0.1:8080/jdg-query-test/jdg"  ==> Call mass indexer
-  curl "http://127.0.0.1:8080/jdg-query-test/jdg2" ==> Call Hibernate Search (Lucene Query)
-  curl "http://127.0.0.1:8080/jdg-query-test/jdg3" ==> Call Infinispan Query DSL
+    curl "http://127.0.0.1:8080/jdg-query-test/jdg"  ==> Call mass indexer
+    curl "http://127.0.0.1:8080/jdg-query-test/jdg2" ==> Call Hibernate Search (Lucene Query)
+    curl "http://127.0.0.1:8080/jdg-query-test/jdg3" ==> Call Infinispan Query DSL
 
 
 # To open in Eclipse
 
-  mvn eclipse:eclipse
+    mvn eclipse:eclipse
 
 Then import into your workspace.
