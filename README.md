@@ -1,6 +1,6 @@
 # Environment
 
-Install the JDG library module for EAP, jboss-datagrid-7.0.0-eap-modules-library.zip, to your EAP installation first.
+This is supposed to be deployed on EAP 6 or 7. JDG libaries will be included in WEB-INF/lib instead of using JBoss Modules.
 
 
 # How to build
