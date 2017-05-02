@@ -1,6 +1,6 @@
 # Environment
 
-This is supposed to be deployed on EAP 6 or 7. JDG libaries will be included in WEB-INF/lib instead of using JBoss Modules.
+This is supposed to be deployed on EAP 6 or 7. JDG libraries will be included in WEB-INF/lib instead of using JBoss Modules.
 
 
 # How to build
