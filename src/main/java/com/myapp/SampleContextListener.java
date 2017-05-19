@@ -34,6 +34,7 @@ public class SampleContextListener implements ServletContextListener {
                     .addProperty("default.directory_provider", "infinispan")
                     .addProperty("lucene_version", "LUCENE_CURRENT")
                     .addProperty("default.indexmanager", "org.infinispan.query.indexmanager.InfinispanIndexManager")
+                    .addIndexedEntity(CacheEntity.class)
                 .build();
 
         Configuration indexREPL = new ConfigurationBuilder()
